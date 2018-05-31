@@ -41,7 +41,7 @@ export default class Back extends React.PureComponent<Props, {}> {
     const { children } = this.props;
     return (
       <Button onClick={this.goParent} type="primary" {...props}>
-        {children && site('返回')}
+        {children || site('返回')}
       </Button>
     );
   }
