@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { select } from '../../../utils/model';
 import { connect, Dispatch } from 'dva';
-import { LoginState } from '../../login/Login.model';
+import { LoginState } from '../../../pages/login/Login.model';
 import { Popconfirm } from 'antd';
 import withLocale from '../../../utils/withLocale';
 interface LinkProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {

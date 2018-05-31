@@ -9,7 +9,7 @@ import * as H from 'history';
 import { autobind } from 'core-decorators';
 import { withRouter } from 'react-router';
 import { compose } from 'react-apollo';
-import { LoginState } from '../../login/Login.model';
+import { LoginState } from '../../../pages/login/Login.model';
 
 interface Hoc {
   site: (p: string, o?: object) => React.ReactNode;

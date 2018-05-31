@@ -3,7 +3,7 @@ import * as ReactDOM from 'react-dom';
 import withLocale from '../../../utils/withLocale';
 import { select } from '../../../utils/model';
 import { Form, Input, Select } from 'antd';
-import { SettingState } from '../../home/header/setting/Setting.model';
+import { SettingState } from '../../../pages/home/header/setting/Setting.model';
 import { ValidationRule } from 'antd/lib/form';
 import { toClass } from 'recompose';
 import { FieldProps } from '../../../utils/TableFormField';
